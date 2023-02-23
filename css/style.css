@@ -1,0 +1,31 @@
+body {
+    background-image: url("pictures/3582f46e-569b-4710-8a3e-3d47946ed151.JPG3582f46e-569b-4710-8a3e-3d47946ed151");
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+}
+
+form {
+   padding: 3%;
+   margin-left: 10%;
+   margin-right: 10%;
+   background-color: rgba(3, 3, 124, 0.3);
+}
+
+#name, #email, #number, #dropdown, #feature, textarea {
+    width: 100%;
+    padding: 3px;
+}
+
+#submit {
+    width: 100%;
+    padding: 1%;
+    background-color: green;
+    border: none;
+}
+
+textarea {
+    height: 140px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <header>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">Thank you! Thank you! Thank you! Thank you! Thank you!</p>
+    </header>
+
+
+    <section>
+      <form id="survey-form">
+        <label id="name-label">Name</label><br>
+        <input type="text" id="name" name="Name" placeholder="Enter your name" required><br><br>
+
+        <label id="email-label">Email</label><br>
+        <input type="email" id="email" name="Email" placeholder="Enter your email" required><br><br>
+
+        <label id="number-label">Age (optional)</label><br>
+        <input type="number" id="number" name="Age" placeholder="Age" min="1" max="100"><br><br>
+
+        <label>Which option best describes your current role?</label><br>
+        <select id="dropdown" aria-placeholder="select current role">
+          <option>ABCDEFG</option>
+          <option>abcdefg</option>
+        </select><br><br>
+        
+        <label>Would you recommend freeCodeCamp to a friend?</label><br>
+        <input type="radio" name="comment" value="Definitely" checked><br>
+        <input type="radio" name="comment" value="Maybe"><br>
+        <input type="radio" name="comment" value="Not Sure"><br><br>
+
+        <label>What is your favorite feature of freeCodeCamp?</label><br>
+        <select id="feature" aria-placeholder="Select an option">
+          <option>ABCDEFG</option>
+          <option>abcdefg</option>
+        </select><br><br>
+
+        <label>What would you like to see improved? (check all that apply)</label><br>
+        <input type="checkbox" name="s1" value="front-end">Front-end Projects<br>
+        <input type="checkbox" name="s2" value="back-end">Back-end Projects<br>
+        <input type="checkbox" name="s3" value="dataVisualization">Data Visualization<br>
+        <input type="checkbox" name="s4" value="challenges">Challenges<br>
+        <input type="checkbox" name="s5" value="openSource">Open Source Community<br>
+        <input type="checkbox" name="s6" value="gitterHelp">Gitter help rooms<br>
+        <input type="checkbox" name="s7" value="videos">Videos<br>
+        <input type="checkbox" name="s8" value="cityMeetups">City Meetups<br>
+        <input type="checkbox" name="s9" value="wiki">Wiki<br>
+        <input type="checkbox" name="s10" value="forum">Forum<br>
+        <input type="checkbox" name="s11" value="additional">Additional Courses<br><br>
+
+        <label>Any comments or suggestions?</label><br>
+        <textarea placeholder="Enter your comments here..."></textarea><br><br>
+
+        <input type="submit" id="submit">
+
+      </form>
+    </section>
+
+    <script  src="js/index.js"></script>
+  </body>
+</html>
